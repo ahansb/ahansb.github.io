@@ -1138,7 +1138,7 @@ ul.social-buttons li a:hover:after,
 
 section#statics {
     background-color: #222;
-    background-image: url(../img/satical2.jpg);
+    background-image: url(../img/stats-nature.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1789,7 +1789,7 @@ section#pricing .panel>.list-group {
 
 section#video {
     background-color: #222;
-    background-image: url(../img/testmonialbg.jpg);
+    background-image: url(../img/greetings-nature.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1802,7 +1802,7 @@ section#video {
 
 section#some-text {
     background-color: #222;
-    background-image: url(../img/sometextbg.jpg);
+    background-image: url(../img/saying-beer-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2699,4 +2699,11 @@ div#comments {
     .carousel-inner {
         min-height: 560px;
     }
+}
+
+/*MY CUSTOMIZATIONS*/
+#skills-specification{
+    font-size: 10px;
+    color: #FFF;
+    font-weight: bo;
 }
