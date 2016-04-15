@@ -2707,3 +2707,25 @@ div#comments {
     color: #FFF;
     font-weight: bo;
 }
+
+section#process {
+    background-color: #222;
+    background-image: url(../img/greetings-nature.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #FFF;
+}
+.process-wrapper{
+    color:#FFF;
+}
+.timeline>li .timeline-image, .process-wrapper {
+    box-shadow: 0 0 0 2px #FFF;
+}
+.section-header-wrapper .skew-neg {
+    border-color: #FFF;
+}
