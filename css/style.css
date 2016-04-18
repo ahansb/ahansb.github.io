@@ -2727,5 +2727,5 @@ section#process {
     box-shadow: 0 0 0 2px #FFF;
 }
 .section-header-wrapper .skew-neg {
-    border-color: #FFF;
+    /*border-color: #FFF;*/
 }
