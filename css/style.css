@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: raleway, sans-serif;
-    color: #000;
+    color: #000;/*texts color*/
 }
 
 .text-muted {
@@ -418,8 +418,13 @@ section#home .skew-pos {
 
 section#home {
     color: #fff;
+    text-shadow:
+    -1px -1px 0 grey,
+    1px -1px 0 grey,
+    -1px 1px 0 grey,
+    1px 1px 0 grey;
     background-attachment: fixed;
-    background-image: url(../img/tazi-start.jpg);
+    background-image: url(../img/laptop-in-nature.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -1219,7 +1224,7 @@ section#milestones {
 
 section#skills {
     background-color: #222;
-    background-image: url(../img/skill3.jpg);
+    background-image: url(../img/programming-skills.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2728,4 +2733,7 @@ section#process {
 }
 .section-header-wrapper .skew-neg {
     /*border-color: #FFF;*/
+}
+.text-white{
+    color: white;
 }

@@ -197,5 +197,12 @@ function isScrolledIntoView(elem) {
     return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom) && (elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 }
 
+let now= new Date();
+let begginingOfCareer = new Date(2015,10);
+let difference = now - begginingOfCareer;
+let year = 1000 * 60 * 60 * 24 * 30.5 * 12;
+var years = Math.floor(difference/year);
+$('#experience-years').html(years);
+
 /* ------ End Document ----------
  ------------------------------------------ */
