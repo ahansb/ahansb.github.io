@@ -424,7 +424,7 @@ section#home {
     -1px 1px 0 grey,
     1px 1px 0 grey;
     background-attachment: fixed;
-    background-image: url(../img/laptop-in-nature.jpg);
+    background-image: url(../img/laptop-in-nature-min.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -890,7 +890,7 @@ section#about ul.social-buttons {
 }
 
 #about #profile-pic {
-    background: url("../img/profile.jpg") no-repeat scroll left center / cover transparent;
+    background: url("../img/profile-min.jpg") no-repeat scroll left center / cover transparent;
     border-color: transparent;
     border-style: none;
     height: 246px;
